@@ -7,6 +7,7 @@
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>lk.ijse.gdse66.hello.api.servletlifecycle.HelloServlet</servlet-class>
+        <load-on-startup>-6</load-on-startup>
     </servlet>
 
     <servlet-mapping>
