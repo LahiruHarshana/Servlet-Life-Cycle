@@ -10,6 +10,17 @@
         <load-on-startup>-6</load-on-startup>
     </servlet>
 
+    <servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>lk.ijse.gdse66.hello.api.servletlifecycle.Hello</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/</url-pattern>
